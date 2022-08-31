@@ -11,7 +11,7 @@ if (numberA > numberB)                              // Сравниваем чи
     {
     Console.WriteLine("max = " + numberB);
     }
-        else if (numberA == numberB)                // Если числа A и B равны выводим число А
+        else if (numberA == numberB)                // Если числа A и B равны выводим "числа равны"
         {
-        Console.WriteLine("max = " + numberA);
+        Console.WriteLine("Числа равны");
         }
