@@ -7,11 +7,11 @@ if (numberA > numberB)                              // Сравниваем чи
 {
     Console.WriteLine("max = " + numberA);
 }
-    else if (numberA < numberB)
-    {
+else if (numberA < numberB)
+{
     Console.WriteLine("max = " + numberB);
-    }
-        else if (numberA == numberB)                // Если числа A и B равны выводим число А
-        {
-        Console.WriteLine("max = " + numberA);
-        }
+}
+else if (numberA == numberB)                // Если числа A и B равны выводим число А
+{
+    Console.WriteLine("Числа равны");
+}
